@@ -1,0 +1,10 @@
+#
+# meitu custom device configuration
+#
+
+
+config MEITU_AUDIO_DAC_ES9118C  
+	tristate " Audio HeadPhone DAC Es9118c drivers"
+	default n
+	---help---
+	Audio HeadPhone DAC Es9118c drivers
